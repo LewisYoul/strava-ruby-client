@@ -17,6 +17,7 @@ module Strava
       property 'uploaded_at', transform_with: ->(v) { Time.parse(v) }
       property 'sizes'
       property 'default_photo'
+      property 'location'
     end
   end
 end
